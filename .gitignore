@@ -1,0 +1,40 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private datasets and results
+data/private/
+datasets/private/
+results/private/
+logs/
+
+# Local models
+models/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+
+# macOS and editor
+.DS_Store
+.vscode/
