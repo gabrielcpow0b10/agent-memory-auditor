@@ -1,0 +1,21 @@
+pair_id,persona_id,topic,old_memory,new_memory,old_timestamp,new_timestamp,label,marker_type,source,split,rationale
+C001,p001,residence,I live in Miami.,I reside in Miami.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,consistent,none,synthetic_manual,pilot,Equivalent residence statement
+C002,p002,language,I speak Spanish fluently.,I am fluent in Spanish.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,consistent,none,synthetic_manual,pilot,Equivalent language ability
+C003,p003,transportation,I own a red bicycle.,My bicycle is red.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,consistent,none,synthetic_manual,pilot,Equivalent bicycle description
+C004,p004,education,I study physics at university.,I am a university physics student.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,consistent,none,synthetic_manual,pilot,Equivalent academic status
+C005,p005,preference,I prefer tea to coffee.,I like tea more than coffee.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,consistent,none,synthetic_manual,pilot,Equivalent preference
+N001,p006,pets,I have a dog.,I also have a cat.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,new,none,synthetic_manual,pilot,Compatible additional pet
+N002,p007,work,I live in Miami.,I work as a programmer.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,new,none,synthetic_manual,pilot,Independent occupation fact
+N003,p008,hobbies,I enjoy cycling.,I play the piano.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,new,none,synthetic_manual,pilot,Compatible additional hobby
+N004,p009,interests,I like Italian food.,I collect stamps.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,new,none,synthetic_manual,pilot,Unrelated preference and hobby
+N005,p010,language,I have a sister.,I speak German.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,new,none,synthetic_manual,pilot,Independent family and language facts
+U001,p011,residence,I live in Miami.,I moved to Boston last month.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,updated,explicit,synthetic_manual,pilot,Explicit residence change
+U002,p012,employment,I work at a bank.,I no longer work at the bank and now teach mathematics.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,updated,explicit,synthetic_manual,pilot,Explicit employment replacement
+U003,p013,schedule,I prefer meetings at 9 AM.,I switched my preferred meeting time to 11 AM.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,updated,explicit,synthetic_manual,pilot,Explicit schedule change
+U004,p014,device,My primary phone is an Android phone.,I started using an iPhone as my primary phone.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,updated,implicit,synthetic_manual,pilot,Later timestamp and start verb indicate replacement
+U005,p015,commute,I commute to work by bus every day.,I started commuting to work by train every day.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,updated,implicit,synthetic_manual,pilot,Later timestamp and start verb indicate commute change
+X001,p016,birthplace,I was born in Madrid.,I was born in Lisbon.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,contradictory,none,synthetic_manual,pilot,Incompatible birthplaces
+X002,p017,birthyear,I was born in 1990.,I was born in 1992.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,contradictory,none,synthetic_manual,pilot,Incompatible birth years
+X003,p018,residence_history,I have never lived outside Canada.,I lived in Germany in 2014.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,contradictory,none,synthetic_manual,pilot,Historical residence contradiction
+X004,p019,education,My only undergraduate degree is in physics.,My only undergraduate degree is in chemistry.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,contradictory,none,synthetic_manual,pilot,Incompatible claims about sole degree
+X005,p020,preference_history,I have always enjoyed coffee.,I now realize I have never liked coffee.,2026-01-10T12:00:00+00:00,2026-10-20T12:00:00+00:00,contradictory,explicit,synthetic_manual,pilot,Temporal word without a genuine historical change
