@@ -1,0 +1,21 @@
+pair_id,expected,predicted,correct,similarity,evidence_id,change_signals
+C001,consistent,consistent,1,0.875317,C001-old,
+C002,consistent,consistent,1,0.908611,C002-old,
+C003,consistent,consistent,1,0.866723,C003-old,
+C004,consistent,consistent,1,0.704405,C004-old,
+C005,consistent,consistent,1,0.932116,C005-old,
+N001,new,contradictory,0,0.680973,N001-old,
+N002,new,new,1,,,
+N003,new,new,1,,,
+N004,new,new,1,,,
+N005,new,new,1,,,
+U001,updated,updated,1,0.384780,U001-old,moved to|last month
+U002,updated,updated,1,0.611487,U002-old,no longer|now
+U003,updated,updated,1,0.706279,U003-old,switched to
+U004,updated,updated,1,0.769092,U004-old,started
+U005,updated,updated,1,0.723775,U005-old,started
+X001,contradictory,contradictory,1,0.704257,X001-old,
+X002,contradictory,contradictory,1,0.857032,X002-old,
+X003,contradictory,new,0,,,
+X004,contradictory,contradictory,1,0.796441,X004-old,
+X005,contradictory,contradictory,1,0.768728,X005-old,now
