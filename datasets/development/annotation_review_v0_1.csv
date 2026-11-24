@@ -1,0 +1,101 @@
+pair_id,old_memory,new_memory,proposed_label,proposed_marker,rationale,reviewed_label,reviewed_marker,review_status,review_notes
+C001,I live in Miami.,I reside in Miami.,consistent,none,Equivalent residence statement,consistent,none,approved,Manual confirmation
+C002,I speak Spanish fluently.,I am fluent in Spanish.,consistent,none,Equivalent language ability,consistent,none,approved,Manual confirmation
+C003,I own a red bicycle.,My bicycle is red.,consistent,none,Equivalent bicycle description,consistent,none,approved,Manual confirmation
+C004,I study physics at university.,I am a university physics student.,consistent,none,Equivalent academic status,consistent,none,approved,Manual confirmation
+C005,I prefer tea to coffee.,I like tea more than coffee.,consistent,none,Equivalent preference,consistent,none,approved,Manual confirmation
+N001,I have a dog.,I also have a cat.,new,none,Compatible additional pet,new,none,approved,Manual confirmation
+N002,I live in Miami.,I work as a programmer.,new,none,Independent occupation fact,new,none,approved,Manual confirmation
+N003,I enjoy cycling.,I play the piano.,new,none,Compatible additional hobby,new,none,approved,Manual confirmation
+N004,I like Italian food.,I collect stamps.,new,none,Unrelated preference and hobby,new,none,approved,Manual confirmation
+N005,I have a sister.,I speak German.,new,none,Independent family and language facts,new,none,approved,Manual confirmation
+U001,I live in Miami.,I moved to Boston last month.,updated,explicit,Explicit residence change,updated,explicit,approved,Manual confirmation
+U002,I work at a bank.,I no longer work at the bank and now teach mathematics.,updated,explicit,Explicit employment replacement,updated,explicit,approved,Manual confirmation
+U003,I prefer meetings at 9 AM.,I switched my preferred meeting time to 11 AM.,updated,explicit,Explicit schedule change,updated,explicit,approved,Manual confirmation
+U004,My primary phone is an Android phone.,I started using an iPhone as my primary phone.,updated,implicit,Later timestamp and start verb indicate replacement,updated,implicit,approved,Manual confirmation
+U005,I commute to work by bus every day.,I started commuting to work by train every day.,updated,implicit,Later timestamp and start verb indicate commute change,updated,implicit,approved,Manual confirmation
+X001,I was born in Madrid.,I was born in Lisbon.,contradictory,none,Incompatible birthplaces,contradictory,none,approved,Manual confirmation
+X002,I was born in 1990.,I was born in 1992.,contradictory,none,Incompatible birth years,contradictory,none,approved,Manual confirmation
+X003,I have never lived outside Canada.,I lived in Germany in 2014.,contradictory,none,Historical residence contradiction,contradictory,none,approved,Manual confirmation
+X004,My only undergraduate degree is in physics.,My only undergraduate degree is in chemistry.,contradictory,none,Incompatible claims about sole degree,contradictory,none,approved,Manual confirmation
+X005,I have always enjoyed coffee.,I now realize I have never liked coffee.,contradictory,explicit,Temporal word without a genuine historical change,contradictory,explicit,approved,Manual confirmation
+C006,I take the train to work.,My commute to work is by train.,consistent,none,Equivalent commuting method,consistent,none,approved,Manual confirmation
+C007,My favorite season is winter.,I like winter more than any other season.,consistent,none,Equivalent seasonal preference,consistent,none,approved,Manual confirmation
+C008,I own two cats and no other cats.,I own exactly two cats.,consistent,none,Equivalent exact number of owned cats,consistent,none,approved,Manual confirmation
+C009,I speak French fluently.,I am fluent in French.,consistent,none,Equivalent language ability,consistent,none,approved,Manual confirmation
+C010,My weekly physics class meets on Mondays at 2 PM.,My physics class is scheduled every Monday at 2 PM.,consistent,none,Equivalent schedule for the same physics class,consistent,none,approved,Manual confirmation
+N006,I enjoy cycling on weekends.,I enjoy painting on weekends.,new,none,Compatible hobbies on the same days,new,none,approved,Manual confirmation
+N007,I have a dog.,I keep an aquarium.,new,none,Compatible additional animal care,new,none,approved,Manual confirmation
+N008,I was born in Seattle.,I live in Miami.,new,none,Birthplace and residence are independent,new,none,approved,Manual confirmation
+N009,I teach mathematics.,I study computer science online.,new,none,Teaching and studying are compatible,new,none,approved,Manual confirmation
+N010,I prefer tea to coffee.,I sometimes drink coffee.,new,none,Occasional coffee does not negate preference,new,none,approved,Manual confirmation
+U006,I work as a cashier.,I no longer work as a cashier and now work as a librarian.,updated,explicit,Explicit employment replacement,updated,explicit,approved,Manual confirmation
+U007,I live in Denver.,I moved from Denver to Phoenix in October.,updated,explicit,Explicit change of residence,updated,explicit,approved,Manual confirmation
+U008,My only weekday commute is by car.,I started commuting only by train on weekdays this month.,updated,implicit,Later exclusive commute replaces earlier method,updated,implicit,approved,Manual confirmation
+U009,My primary laptop is a Windows laptop.,I switched my primary laptop to a MacBook last week.,updated,explicit,Explicit replacement of primary laptop,updated,explicit,approved,Manual confirmation
+U010,My only weekly running day is Saturday.,I started running only on Sunday each week this fall.,updated,implicit,Exclusive weekly schedule changed later,updated,implicit,approved,Manual confirmation
+X006,My birth month is April.,My birth month is October.,contradictory,none,Incompatible birth months,contradictory,none,approved,Manual confirmation
+X007,I have never visited Japan.,I visited Japan in 2019.,contradictory,none,Historical visit conflicts with never claim,contradictory,none,approved,Manual confirmation
+X008,My original birth certificate lists Alex as my only middle name.,My original birth certificate lists Jordan as my only middle name.,contradictory,none,Conflicting claims about the same original birth certificate,contradictory,none,approved,Manual confirmation
+X009,I completed my first marathon in 2020.,I have never completed a marathon.,contradictory,none,Completed event contradicts never claim,contradictory,none,approved,Manual confirmation
+X010,"I have no siblings, biological or adopted.",I have an older biological brother.,contradictory,none,Explicitly incompatible biological sibling claims,contradictory,none,approved,Manual confirmation
+C011,My only pet is a turtle.,"I have exactly one pet, a turtle.",consistent,none,Equivalent exclusive pet ownership,consistent,none,approved,Manual confirmation
+C012,I work remotely three days per week.,I work remotely on three days every week.,consistent,none,Equivalent remote work frequency,consistent,none,approved,Manual confirmation
+C013,I have never visited Brazil.,I have not visited Brazil at any time.,consistent,none,Equivalent negative travel history,consistent,none,approved,Manual confirmation
+C014,The weekly meeting starts at 3 PM on Wednesdays.,"Every Wednesday, the weekly meeting begins at 3 PM.",consistent,none,Equivalent recurring meeting schedule,consistent,none,approved,Manual confirmation
+C015,The first programming language I learned was Python.,Python was the first programming language I learned.,consistent,none,Equivalent programming history,consistent,none,approved,Manual confirmation
+N011,I prefer coffee to tea.,I sometimes drink tea.,new,none,Drinking tea is compatible with preferring coffee,new,none,approved,Manual confirmation
+N012,I have two dogs.,I volunteer at an animal shelter on weekends.,new,none,Pet ownership and volunteering are compatible,new,none,approved,Manual confirmation
+N013,I practice swimming on Saturdays.,I also take piano lessons on Tuesdays.,new,none,Compatible hobbies on separate days,new,none,approved,Manual confirmation
+N014,I work as a nurse.,I study economics in the evenings.,new,none,Employment and education can coexist,new,none,approved,Manual confirmation
+N015,I own a blue backpack.,I also own a green suitcase.,new,none,Compatible additional possession,new,none,approved,Manual confirmation
+U011,My default browser is Safari.,I switched my default browser to Firefox in October.,updated,explicit,Explicit default browser replacement,updated,explicit,approved,Manual confirmation
+U012,I work the day shift at the hospital.,I no longer work the day shift; I now work nights at the hospital.,updated,explicit,Explicit work shift replacement,updated,explicit,approved,Manual confirmation
+U013,My home is in Tampa.,I moved from Tampa to Orlando in August.,updated,explicit,Explicit residence change,updated,explicit,approved,Manual confirmation
+U014,I exercise only on Mondays.,I started exercising only on Thursdays.,updated,implicit,Later exclusive schedule indicates replacement,updated,implicit,approved,Manual confirmation
+U015,I take the bus to campus every morning.,I started commuting to campus only by subway every morning.,updated,implicit,Later exclusive commute method indicates replacement,updated,implicit,approved,Manual confirmation
+X011,My blood type is O negative.,My blood type is AB positive.,contradictory,none,Incompatible blood type claims,contradictory,none,approved,Manual confirmation
+X012,My only native language is Spanish.,My only native language is German.,contradictory,none,Incompatible exclusive native language claims,contradictory,none,approved,Manual confirmation
+X013,I have never been to Italy.,I traveled to Italy in 2018.,contradictory,none,Historical visit contradicts never claim,contradictory,none,approved,Manual confirmation
+X014,"By 2020 I had completed exactly one PhD, in physics.","By 2020 I had completed exactly one PhD, in biology.",contradictory,none,Conflicting historical degree claims,contradictory,none,approved,Manual confirmation
+X015,I had never eaten sushi before 2020.,I ate sushi in 2018.,contradictory,none,Historical event contradicts the never claim,contradictory,none,approved,Manual confirmation
+C016,I study at the public library every Tuesday.,"Every Tuesday, I study at the public library.",consistent,none,Equivalent weekly study routine,consistent,none,approved,Manual confirmation
+C017,I have exactly two siblings.,The number of my siblings is two.,consistent,none,Equivalent sibling count,consistent,none,approved,Manual confirmation
+C018,I received my driver's license in 2018.,2018 was the year I received my driver's license.,consistent,none,Equivalent historical licensing fact,consistent,none,approved,Manual confirmation
+C019,Python is my favorite programming language.,The programming language I like most is Python.,consistent,none,Equivalent programming preference,consistent,none,approved,Manual confirmation
+C020,I have never owned a motorcycle.,At no time have I owned a motorcycle.,consistent,none,Equivalent negative ownership history,consistent,none,approved,Manual confirmation
+N016,I speak Spanish.,I am learning Japanese.,new,none,Speaking Spanish and learning Japanese are compatible,new,none,approved,Manual confirmation
+N017,I own a bicycle.,I sometimes rent a car on weekends.,new,none,Bicycle ownership and car rental are compatible,new,none,approved,Manual confirmation
+N018,I work from home on Mondays.,I work at the office on Tuesdays.,new,none,Different work locations on different days,new,none,approved,Manual confirmation
+N019,I have a brother.,I also have a sister.,new,none,Compatible additional sibling,new,none,approved,Manual confirmation
+N020,I enjoy science fiction movies.,I also enjoy documentaries.,new,none,Compatible additional film preference,new,none,approved,Manual confirmation
+U016,I live in Austin.,I moved from Austin to Dallas in September.,updated,explicit,Explicit residence replacement,updated,explicit,approved,Manual confirmation
+U017,My default search engine is Google.,I switched my default search engine to DuckDuckGo last week.,updated,explicit,Explicit default search engine replacement,updated,explicit,approved,Manual confirmation
+U018,My morning shift starts at 7 AM.,My morning shift now starts at 9 AM.,updated,explicit,Explicit change in shift start time,updated,explicit,approved,Manual confirmation
+U019,I take class notes only on paper.,I started taking class notes only on my tablet this semester.,updated,implicit,Later exclusive note-taking method,updated,implicit,approved,Manual confirmation
+U020,I pay my monthly gym fee only in cash.,I started paying my monthly gym fee only by credit card in October.,updated,implicit,Later exclusive payment method,updated,implicit,approved,Manual confirmation
+X016,I have never owned a car.,I owned a car in 2020.,contradictory,none,Historical car ownership contradicts never claim,contradictory,none,approved,Manual confirmation
+X017,My first and only high school graduation was in 2015.,My first and only high school graduation was in 2017.,contradictory,none,Incompatible dates for the same unique event,contradictory,none,approved,Manual confirmation
+X018,On January 1 2020 I had exactly two siblings.,On January 1 2020 I had no siblings.,contradictory,none,Conflicting sibling counts for the same date,contradictory,none,approved,Manual confirmation
+X019,I attended no conferences in 2022.,I attended a robotics conference in 2022.,contradictory,none,Historical conference attendance contradiction,contradictory,none,approved,Manual confirmation
+X020,The first foreign country I visited was Canada.,The first foreign country I visited was Mexico.,contradictory,none,Incompatible first foreign destination claims,contradictory,none,approved,Manual confirmation
+C021,The only musical instrument I play is the violin.,I play the violin and no other musical instruments.,consistent,none,Equivalent exclusive musical ability,consistent,none,approved,Manual confirmation
+C022,My driver's license expires in May 2029.,May 2029 is the expiration month and year on my driver's license.,consistent,none,Equivalent license expiration,consistent,none,approved,Manual confirmation
+C023,I never work on Sundays.,I do not work on any Sunday.,consistent,none,Equivalent negative work schedule,consistent,none,approved,Manual confirmation
+C024,I began learning guitar in 2018.,2018 was the year I started learning guitar.,consistent,none,Equivalent learning history despite temporal vocabulary,consistent,none,approved,Manual confirmation
+C025,I own exactly one red suitcase.,There is exactly one red suitcase that belongs to me.,consistent,none,Equivalent exclusive suitcase ownership,consistent,none,approved,Manual confirmation
+N021,I do not own a car.,I have a valid driver's license.,new,none,A driving license does not imply car ownership,new,none,approved,Manual confirmation
+N022,I work as a mathematics tutor.,I cook dinner at home on weekdays.,new,none,Compatible work and household activities,new,none,approved,Manual confirmation
+N023,I speak English fluently.,I am learning Korean.,new,none,Fluency in one language is compatible with learning another,new,none,approved,Manual confirmation
+N024,I collect antique coins.,I also collect postage stamps.,new,none,Compatible collecting hobbies,new,none,approved,Manual confirmation
+N025,I have visited Mexico.,I have never visited Sweden.,new,none,Independent travel history claims,new,none,approved,Manual confirmation
+U021,My only office day is Tuesday.,I switched to Thursday as my only office day this month.,updated,explicit,Explicit replacement of exclusive office day,updated,explicit,approved,Manual confirmation
+U022,I live in Raleigh.,I moved to Charlotte last month.,updated,explicit,Explicit residence change,updated,explicit,approved,Manual confirmation
+U023,I use a laptop as my primary computer.,I no longer use a laptop as my primary computer; now I use a desktop.,updated,explicit,Explicit replacement of primary computer,updated,explicit,approved,Manual confirmation
+U024,I keep my weekly budget only in a paper notebook.,I started keeping my weekly budget only in a spreadsheet this month.,updated,implicit,Later exclusive budget tracking method,updated,implicit,approved,Manual confirmation
+U025,I attend my weekly language lesson only on Saturdays.,My weekly language lesson began meeting only on Tuesdays in September.,updated,implicit,Later exclusive language lesson schedule,updated,implicit,approved,Manual confirmation
+X021,My first paid job was at a bakery.,My first paid job was at a pharmacy.,contradictory,none,Incompatible claims about the first paid job,contradictory,none,approved,Manual confirmation
+X022,"I had exactly one child on January 1, 2020.","I had no children on January 1, 2020.",contradictory,none,Conflicting child counts on the same date,contradictory,none,approved,Manual confirmation
+X023,My only legal surname on my original birth certificate was Torres.,My only legal surname on my original birth certificate was Miller.,contradictory,none,Conflicting claims about the same original birth record,contradictory,none,approved,Manual confirmation
+X024,I have never flown in an airplane.,I flew in an airplane in 2019.,contradictory,none,Historical flight contradicts never claim,contradictory,none,approved,Manual confirmation
+X025,I finished first among 20 participants in the 2019 Maple 5K.,I finished last among 20 participants in the 2019 Maple 5K.,contradictory,none,Incompatible finishing positions in the same race,contradictory,none,approved,Manual confirmation
