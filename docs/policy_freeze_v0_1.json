@@ -1,0 +1,36 @@
+{
+  "name": "Agent Memory Auditor",
+  "version": "policy-freeze-v0.1",
+  "date": "2026-11-23",
+  "selected_policy": "C_consensus",
+  "selection_basis": "100 reviewed development candidates",
+  "development_correct": 85,
+  "development_total": 100,
+  "retrieval_threshold": 0.35,
+  "contradiction_threshold": 0.5,
+  "entailment_threshold": 0.5,
+  "bidirectional_contradiction_consensus": true,
+  "sentence_encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "nli_model": "cross-encoder/nli-deberta-v3-base",
+  "package_versions": {
+    "sentence-transformers": "5.7.0",
+    "transformers": "5.22.2",
+    "torch": "2.15.0"
+  },
+  "file_sha256": {
+    "scripts/compare_policies.py": "47c45ed03194a15fcc47fa9bdef8079b3526159f5b3295489db26ab3cac11695",
+    "src/agent_memory_auditor/nli.py": "155893d849ae14dc09d95d130c45b3a2d2afc95024e820846d5fcb2a8b8cd1fe",
+    "src/agent_memory_auditor/retrieval.py": "84ae2463fb489e481391972f503fa3d4fc390407ca0ab565696071191752866b",
+    "src/agent_memory_auditor/temporal.py": "b75bce44965aa6a7cb8f7b310df36076ff255d6369220a0463966c28bf6b1843",
+    "src/agent_memory_auditor/schemas.py": "02508f1916723690526c9b552f2708e0943d5cc1b6b589113199a20b3eb5ffa3",
+    "datasets/development/annotation_review_v0_1.csv": "e0a1a4cb9902218f1ca061e725f8d6ebb1735eb47cc7bb130170b2fa3bcd5875",
+    "results/development/policy_comparison_candidates_v0_1.csv": "bc0e426a03111dd2fbccb3677c60effe9b673dd1c90c93695c48ce6dd1a7f8e4"
+  },
+  "held_out_used_for_selection": false,
+  "status": "selected_before_independent_evaluation",
+  "limitations": [
+    "Development accuracy is exploratory",
+    "Model repository revisions are not yet pinned",
+    "Independent evaluation remains pending"
+  ]
+}
