@@ -1,0 +1,269 @@
+{
+  "research_question": "RQ2",
+  "total_pairs": 200,
+  "label_order": [
+    "consistent",
+    "new",
+    "updated",
+    "contradictory"
+  ],
+  "policies": {
+    "C_consensus": {
+      "correct": 141,
+      "total": 200,
+      "accuracy": 0.705,
+      "macro_f1": 0.6488479490340369,
+      "classification_report": {
+        "consistent": {
+          "precision": 1.0,
+          "recall": 0.88,
+          "f1-score": 0.9361702127659575,
+          "support": 50.0
+        },
+        "new": {
+          "precision": 0.703125,
+          "recall": 0.9,
+          "f1-score": 0.7894736842105263,
+          "support": 50.0
+        },
+        "updated": {
+          "precision": 0.8333333333333334,
+          "recall": 0.1,
+          "f1-score": 0.17857142857142858,
+          "support": 50.0
+        },
+        "contradictory": {
+          "precision": 0.5465116279069767,
+          "recall": 0.94,
+          "f1-score": 0.6911764705882353,
+          "support": 50.0
+        },
+        "accuracy": 0.705,
+        "macro avg": {
+          "precision": 0.7707424903100776,
+          "recall": 0.7050000000000001,
+          "f1-score": 0.6488479490340369,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.7707424903100776,
+          "recall": 0.705,
+          "f1-score": 0.6488479490340369,
+          "support": 200.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          44,
+          4,
+          0,
+          2
+        ],
+        [
+          0,
+          45,
+          1,
+          4
+        ],
+        [
+          0,
+          12,
+          5,
+          33
+        ],
+        [
+          0,
+          3,
+          0,
+          47
+        ]
+      ],
+      "macro_f1_ci95": {
+        "samples": 5000,
+        "seed": 4304,
+        "method": "stratified_percentile_bootstrap",
+        "confidence_level": 0.95,
+        "lower": 0.6021393449999929,
+        "upper": 0.6967227493817968
+      }
+    },
+    "most_recent_wins": {
+      "correct": 127,
+      "total": 200,
+      "accuracy": 0.635,
+      "macro_f1": 0.5652137911455294,
+      "classification_report": {
+        "consistent": {
+          "precision": 1.0,
+          "recall": 0.88,
+          "f1-score": 0.9361702127659575,
+          "support": 50.0
+        },
+        "new": {
+          "precision": 0.703125,
+          "recall": 0.9,
+          "f1-score": 0.7894736842105263,
+          "support": 50.0
+        },
+        "updated": {
+          "precision": 0.41304347826086957,
+          "recall": 0.76,
+          "f1-score": 0.5352112676056338,
+          "support": 50.0
+        },
+        "contradictory": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 50.0
+        },
+        "accuracy": 0.635,
+        "macro avg": {
+          "precision": 0.5290421195652174,
+          "recall": 0.635,
+          "f1-score": 0.5652137911455294,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.5290421195652173,
+          "recall": 0.635,
+          "f1-score": 0.5652137911455294,
+          "support": 200.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          44,
+          4,
+          2,
+          0
+        ],
+        [
+          0,
+          45,
+          5,
+          0
+        ],
+        [
+          0,
+          12,
+          38,
+          0
+        ],
+        [
+          0,
+          3,
+          47,
+          0
+        ]
+      ],
+      "macro_f1_ci95": {
+        "samples": 5000,
+        "seed": 4304,
+        "method": "stratified_percentile_bootstrap",
+        "confidence_level": 0.95,
+        "lower": 0.529720064710417,
+        "upper": 0.5997079321501295
+      }
+    },
+    "never_update": {
+      "correct": 136,
+      "total": 200,
+      "accuracy": 0.68,
+      "macro_f1": 0.5969039319905998,
+      "classification_report": {
+        "consistent": {
+          "precision": 1.0,
+          "recall": 0.88,
+          "f1-score": 0.9361702127659575,
+          "support": 50.0
+        },
+        "new": {
+          "precision": 0.703125,
+          "recall": 0.9,
+          "f1-score": 0.7894736842105263,
+          "support": 50.0
+        },
+        "updated": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 50.0
+        },
+        "contradictory": {
+          "precision": 0.5108695652173914,
+          "recall": 0.94,
+          "f1-score": 0.6619718309859155,
+          "support": 50.0
+        },
+        "accuracy": 0.68,
+        "macro avg": {
+          "precision": 0.5534986413043479,
+          "recall": 0.6799999999999999,
+          "f1-score": 0.5969039319905998,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.5534986413043478,
+          "recall": 0.68,
+          "f1-score": 0.5969039319905999,
+          "support": 200.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          44,
+          4,
+          0,
+          2
+        ],
+        [
+          0,
+          45,
+          0,
+          5
+        ],
+        [
+          0,
+          12,
+          0,
+          38
+        ],
+        [
+          0,
+          3,
+          0,
+          47
+        ]
+      ],
+      "macro_f1_ci95": {
+        "samples": 5000,
+        "seed": 4304,
+        "method": "stratified_percentile_bootstrap",
+        "confidence_level": 0.95,
+        "lower": 0.56735384105481,
+        "upper": 0.6246458061400294
+      }
+    }
+  },
+  "mcnemar": {
+    "most_recent_wins": {
+      "pipeline_only_correct": 47,
+      "baseline_only_correct": 33,
+      "p_value": 0.1456354544029827,
+      "significant_at_0_05": false
+    },
+    "never_update": {
+      "pipeline_only_correct": 5,
+      "baseline_only_correct": 0,
+      "p_value": 0.0625,
+      "significant_at_0_05": false
+    }
+  },
+  "prediction_sha256": "2719241450538dcb7815776c66f0bbbe736b03d2a8e586fc28e7260987efec33",
+  "gold_sha256": "500258654c2edc92bdf068170b8c8bc89a5ed2b9c46a9a94020a1eff6850239d",
+  "frozen_policy_modified": false,
+  "new_inference_executed": false,
+  "baseline_definition": "shared_retrieval_and_nli_conflicts",
+  "analysis_type": "planned_comparison_after_primary_evaluation"
+}
