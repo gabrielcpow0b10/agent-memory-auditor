@@ -1,0 +1,51 @@
+name: Research Quality Gate
+
+on:
+  push:
+    branches:
+      - main
+      - feat/heldout-corpus
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quality-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install CPU PyTorch
+        run: |
+          python -m pip install torch \
+            --index-url https://download.pytorch.org/whl/cpu
+
+      - name: Install project dependencies
+        run: python -m pip install -e ".[dev,retrieval]"
+
+      - name: Check dependencies
+        run: python -m pip check
+
+      - name: Lint source code
+        run: python -m ruff check src tests examples scripts
+
+      - name: Run automated tests
+        run: python -m pytest -q
