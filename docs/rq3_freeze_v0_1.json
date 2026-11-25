@@ -1,0 +1,144 @@
+{
+  "version": "rq3-freeze-v0.1",
+  "research_question": "RQ3",
+  "status": "frozen_before_llm_heldout_inference",
+  "model_identity": {
+    "model": "qwen3:8b-q4_K_M",
+    "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+    "ollama_version": "0.40.16"
+  },
+  "quantization": "Q4_K_M",
+  "hardware": "Apple M4, 16 GB RAM",
+  "observed_processor": "100% GPU",
+  "prompt_sha256": "bb9c92902cc6df4a752886b40565cd3e94fa19a5dd8aac3e31250a9668fbc3fd",
+  "prompt_selection": {
+    "split": "development",
+    "initial_prompt_retained": true,
+    "additional_prompt_iterations": 0
+  },
+  "options": {
+    "temperature": 0.0,
+    "seed": 4304,
+    "num_ctx": 2048,
+    "num_predict": 64
+  },
+  "response_schema": {
+    "type": "object",
+    "properties": {
+      "label": {
+        "type": "string",
+        "enum": [
+          "consistent",
+          "new",
+          "updated",
+          "contradictory"
+        ]
+      }
+    },
+    "required": [
+      "label"
+    ],
+    "additionalProperties": false
+  },
+  "thinking": false,
+  "stream": false,
+  "keep_alive": "15m",
+  "label_order": [
+    "consistent",
+    "new",
+    "updated",
+    "contradictory"
+  ],
+  "development": {
+    "total": 100,
+    "correct": 91,
+    "accuracy": 0.91,
+    "macro_f1": 0.9120284623283275,
+    "invalid_responses": 0,
+    "classification_report": {
+      "consistent": {
+        "precision": 1.0,
+        "recall": 0.92,
+        "f1-score": 0.9583333333333334,
+        "support": 25.0
+      },
+      "new": {
+        "precision": 1.0,
+        "recall": 0.96,
+        "f1-score": 0.9795918367346939,
+        "support": 25.0
+      },
+      "updated": {
+        "precision": 0.7857142857142857,
+        "recall": 0.88,
+        "f1-score": 0.8301886792452831,
+        "support": 25.0
+      },
+      "contradictory": {
+        "precision": 0.88,
+        "recall": 0.88,
+        "f1-score": 0.88,
+        "support": 25.0
+      },
+      "accuracy": 0.91,
+      "macro avg": {
+        "precision": 0.9164285714285714,
+        "recall": 0.9099999999999999,
+        "f1-score": 0.9120284623283275,
+        "support": 100.0
+      },
+      "weighted avg": {
+        "precision": 0.9164285714285714,
+        "recall": 0.91,
+        "f1-score": 0.9120284623283276,
+        "support": 100.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        23,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        24,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        22,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        22
+      ]
+    ],
+    "mean_latency_ms": 969.82938,
+    "median_latency_ms": 985.894
+  },
+  "planned_heldout_pairs": 200,
+  "llm_heldout_inference_executed": false,
+  "nlp_heldout_results_already_available": true,
+  "invalid_responses_count_as_errors": true,
+  "file_sha256": {
+    "datasets/pilot/annotation_pilot_v0_1.csv": "6cfcc656aefa6418659d70ec6a850f3819fa3248d537cc1493bf85eb350fa8e7",
+    "datasets/development/batch_01_draft.csv": "535fcc1774f70065bf836d7ac5844f4429decd2ab7d47816f130ba780a96c1dd",
+    "datasets/development/batch_02_draft.csv": "6873923c0ed8943a3f2da2966b1e89ea893bff412947316164fbb978f9ec0292",
+    "datasets/development/batch_03_draft.csv": "863d8c5c75ef1b3a42c8bf904c109e370a004789c534d089041af787a268a629",
+    "datasets/development/batch_04_draft.csv": "3a713410920bd7ef8978fd5214d2109e87e193f7d14dc371a44ad8d8e20fdc1c",
+    "datasets/development/annotation_review_v0_1.csv": "e0a1a4cb9902218f1ca061e725f8d6ebb1735eb47cc7bb130170b2fa3bcd5875",
+    "configs/rq3_prompt_v0_1.txt": "bb9c92902cc6df4a752886b40565cd3e94fa19a5dd8aac3e31250a9668fbc3fd",
+    "results/rq3/development_v0_1.jsonl": "e96fd3025f972c3ec3fc812c6a27407c915f44bc4d4a62f873f9c8b4e329f407",
+    "scripts/evaluate_rq3.py": "e8b6279e2a75d230b3b1089d046c5fc51af8a584c08f2276b5c35260f4233326",
+    "docs/annotation_guide.md": "b685056fdc362cdcfb45da5269c97d78bc793568fe75009f1ddda5ee9297ff32",
+    "datasets/heldout/heldout_inputs_v0_1.csv": "0b4f69bb8f5b86a5f17cd5408860b701a5178da7905ef356c84446e624fcdaf0",
+    "datasets/heldout/dataset_freeze_v0_1.json": "739435df4555fc9f4c3d7d8f4a59ffb88d25b6de9986366ce766bfcb72066394"
+  }
+}
