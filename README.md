@@ -1,5 +1,15 @@
 # Agent Memory Auditor
 
+## Author and Researcher
+
+**Gabriel Cruz**
+
+Florida International University
+
+CAI 4304 - Natural Language Processing
+
+Project author, principal researcher, dataset curator and annotation reviewer.
+
 A local-first NLP research project for detecting contradictions,
 legitimate updates, and outdated information in conversational
 agent memory.

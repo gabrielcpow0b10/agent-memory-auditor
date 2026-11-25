@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "agent-memory-auditor"
+authors = [{ name = "Gabriel Cruz" }]
 version = "0.1.0"
 description = "Local-first auditing of conversational agent memory."
 readme = "README.md"
