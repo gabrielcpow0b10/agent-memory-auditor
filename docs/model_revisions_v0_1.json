@@ -1,0 +1,26 @@
+{
+  "version": "model-revisions-v0.1",
+  "selected_policy": "C_consensus",
+  "models": {
+    "sentence-transformers/all-MiniLM-L6-v2": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "cross-encoder/nli-deberta-v3-base": "6c749ce3425cd33b46d187e45b92bbf96ee12ec7"
+  },
+  "device": "cpu",
+  "local_files_only": true,
+  "python_version": "3.12.16",
+  "package_versions": {
+    "sentence-transformers": "5.7.0",
+    "transformers": "5.22.2",
+    "torch": "2.15.0",
+    "huggingface-hub": "2.4.0",
+    "numpy": "2.5.4"
+  },
+  "development_reproduction": {
+    "total": 100,
+    "correct": 85,
+    "archived_prediction_matches": 100,
+    "maximum_rounded_score_difference": 0.0
+  },
+  "historical_model_revision_verified": false,
+  "heldout_inference_executed": false
+}

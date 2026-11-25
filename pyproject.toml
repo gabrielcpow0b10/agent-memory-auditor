@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "agent-memory-auditor"
+authors = [{ name = "Gabriel Cruz" }]
 version = "0.1.0"
 description = "Local-first auditing of conversational agent memory."
 readme = "README.md"
@@ -14,6 +15,8 @@ dependencies = []
 retrieval = [
     "sentence-transformers>=5.7,<6",
     "numpy>=2,<3",
+    "scipy>=1.11,<2",
+    "scikit-learn>=1.4,<2",
 ]
 dev = [
     "pytest>=8,<10",

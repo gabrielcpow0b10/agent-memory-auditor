@@ -1,0 +1,38 @@
+{
+  "version": "research-figures-v0.1",
+  "python": "3.12.16",
+  "matplotlib": "3.11.2",
+  "numpy": "2.5.5",
+  "png_dpi": 300,
+  "figures": 8,
+  "generated_files": 16,
+  "source_sha256": {
+    "results/rq1/metrics_v0_1.json": "69ac26f1f789ea3080f75de257cc31337977f612d1343668ea93910692549ad2",
+    "results/rq1/statistics_v0_1.json": "af66e0e66a4ead596bfe94a888b637eefc9da607482f292f77b5e0974da2587f",
+    "results/heldout/rq2_comparison_v0_1.json": "de05d8edcf2739f0d05225368792fc940b5c95c548266b96bdb89e05ab3f1b9d",
+    "results/rq3/metrics_v0_1.json": "342aa7887739f3d404fc5a7def788e8ac5a4255ca3a510609cd537ebf1a93b1f"
+  },
+  "architecture_source_sha256": {
+    "scripts/compare_policies.py": "47c45ed03194a15fcc47fa9bdef8079b3526159f5b3295489db26ab3cac11695",
+    "scripts/predict_heldout.py": "d9c96e2e1e2436c5ea5f8ffa340a433de60e4ad98c8748c852c38c1bc7c030e6"
+  },
+  "generator_sha256": "ead631a9bbbcf2d30376576575c55e35d072a4fa133fd28f1668517f122e344c",
+  "figure_sha256": {
+    "docs/figures/01_system_architecture.png": "2287aa6b1bb5e9d66d79317d225e4b6c433076cedfadb92084c2e41f38b83c0e",
+    "docs/figures/01_system_architecture.svg": "9f482f454ab38517d0fce3717e2b6ac083606775893b907cb46250cb4c897ed8",
+    "docs/figures/02_rq1_retrieval_performance.png": "a3c7d27d262c6f3f6e2976c53c1c7269c64d6e965dcf68af8c97ca108e3982ac",
+    "docs/figures/02_rq1_retrieval_performance.svg": "c41e7f442b75ac7eb7b4b3648c44e17f182a71a1fbca77330f4bf0a21f8ebdda",
+    "docs/figures/03_rq1_scalability.png": "14fe9e6b9e63eb367b948d27a91bab107f9da8d58ddaf9c0a573950013ec624e",
+    "docs/figures/03_rq1_scalability.svg": "08a623b6d1c49f5bdf519a6246c620ba54ce1fa451dee9cb1339c84dab900a6f",
+    "docs/figures/04_rq2_temporal_policies.png": "90bb9906b14831394eb687673dbb19ad572dbb71bccae810ee832f7d22c18d6d",
+    "docs/figures/04_rq2_temporal_policies.svg": "fb06f83d188a2edf1bf5d9201f60b1a868d7c3bd943c8b528b0a1afc696c5ea0",
+    "docs/figures/05_rq3_class_recall.png": "3b07d6690a047b6d727f5d37b218070442753ae9d22e51d2d6af9a6fd934d60a",
+    "docs/figures/05_rq3_class_recall.svg": "b25982b5e8caed7ac4c6fcc389142f54dbce28bb832600f0648e6a03571446fe",
+    "docs/figures/06_rq3_confusion_matrices.png": "c5ee8a7ce7e466e24431658f58c97c3e7f50a540115ddf407fdc89fa22a34446",
+    "docs/figures/06_rq3_confusion_matrices.svg": "70ed84ca4ccfe4d3d204f4fec9824c72a4a8da12391d55d6c6d28020a33315cd",
+    "docs/figures/07_accuracy_latency_tradeoff.png": "a5c425190de316b6745a859cfd1aa560f42fb0f8912b76e2f9df26e4d876273c",
+    "docs/figures/07_accuracy_latency_tradeoff.svg": "aa9bb18251027a298b9736e8d3629aed0d1b87d0f6be302284539582939a3181",
+    "docs/figures/08_statistical_confidence_intervals.png": "65485ac16a997d4f290a0298a2a7ca893f2b25f664e64a8d038114d6a5a01777",
+    "docs/figures/08_statistical_confidence_intervals.svg": "39ca01aa784ee10d0ce003b44aba19d8d2f63cc1190ad029ffc07c07226cabe9"
+  }
+}

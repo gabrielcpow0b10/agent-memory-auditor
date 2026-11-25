@@ -1,0 +1,201 @@
+review_id,old_memory,new_memory,old_timestamp,new_timestamp
+R001,I volunteer at the river cleanup every April.,Each April I participate as a volunteer in the river cleanup.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R002,My triangular display has three sides of equal length.,My triangular display is equilateral.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R003,I scored exactly 72 points on my 2023 ceramics final exam.,I scored exactly 89 points on that same 2023 ceramics final exam.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R004,My trail camera takes pictures only at night.,The trail camera records photographs at night and never during daylight.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R005,My catering service requires deposits of 20 percent.,In May I increased the required catering deposit from 20 percent to 35 percent.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R006,My machinery inspections take place only once per month.,Under the maintenance schedule effective in June my machinery inspections take place exactly once per week.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R007,Our annual astronomy club meeting takes place only in January.,Starting this year our annual astronomy club meeting is held only in June.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R008,At the close of 2023 my stamp collection contained exactly 150 stamps.,At the close of 2023 that same stamp collection contained exactly 175 stamps.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R009,My certification course is delivered entirely online.,Beginning in September all sessions of my certification course take place in person.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R010,My air-temperature sensor records one reading every minute.,The sensor measures air temperature once per minute.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R011,I only drink decaffeinated coffee.,I sometimes eat dark chocolate.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R012,The spring concert begins at half past six in the evening.,The spring concert starts at 6:30 PM.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R013,The emergency contact number for my studio is 555-0101.,Effective this September the sole emergency contact number for my studio is 555-0102.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R014,I maintain a local backup of my photographs.,I recently started keeping an encrypted copy off-site as well.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R015,I own a trumpet.,I attend a pottery workshop twice a month.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R016,All my archived laboratory reports are stored exclusively on optical discs.,Under the archival arrangement effective in April all my archived laboratory reports are stored exclusively on magnetic tape.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R017,My theater assigns seats using printed tickets.,We discontinued printed seat assignments and adopted digital seat assignments in June.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R018,I keep all my seedlings only on the kitchen windowsill.,I started keeping all my seedlings only in the greenhouse this fall.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R019,My telescope has an equatorial mount.,I write a monthly astronomy newsletter.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R020,My emergency water tank holds a maximum of 500 liters.,The maximum capacity of my emergency water tank is half a cubic meter.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R021,I disabled automatic renewal for my cloud storage.,I still have access to my cloud storage account.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R022,The hiking guidebook is stored on the top shelf.,I keep the hiking guidebook on the highest shelf.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R023,I repair damaged clothing by hand.,I purchase recycled fabric for craft projects.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R024,I cultivate tomatoes in pots.,I grow basil in a separate planter.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R025,The ceramic glaze I use contains no lead.,I use a lead-free ceramic glaze.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R026,None of the containers in my freezer are made of metal.,My freezer contains no metal containers.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R027,Every window passed my home's final inspection in 2021.,At least one window failed that same final inspection in 2021.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R028,I completed an introductory statistics course.,I am studying experimental design.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R029,I take photographs with a 50 mm prime lens.,My photographs use a fixed-focal-length lens of 50 millimeters.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R030,My original 2016 photograph was captured in black and white.,That same original photograph was captured in full color in 2016.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R031,My sample contained no copper when it was analyzed in 2023.,The same 2023 analysis established that my sample contained copper.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R032,The monthly workshop is hosted at the east hall.,We relocated the monthly workshop from the east hall to the west hall in July.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R033,All my garden tools are kept in the locked shed.,The locked shed is where I store every one of my garden tools.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R034,My house uses solar panels.,My kitchen stove runs on natural gas.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R035,All my podcast episodes are distributed exclusively in MP3 format.,Under the distribution policy effective in August all my podcast episodes are distributed exclusively in AAC format.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R036,During the 2021 eclipse I photographed exactly four frames at totality.,During that same 2021 eclipse I photographed exactly nine frames at totality.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R037,I record atmospheric pressure every morning.,I maintain a separate record of daily rainfall.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R038,I organize a board-game club.,I attend ceramic art fairs.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R039,My official chip time at the 2022 Blue Ridge 10K was exactly 49 minutes.,My official chip time at that same 2022 Blue Ridge 10K was exactly 57 minutes.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R040,My first published short story was written entirely in Portuguese.,My first published short story was written entirely in Arabic.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R041,I completed my kayaking certification in 2022.,2022 was the year I earned my kayaking certification.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R042,My microscope objective magnifies objects forty times.,The magnification of my microscope objective is 40x.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R043,The sole unit used in my laboratory pressure reports is the pascal.,Under the reporting standard effective in September the sole pressure unit used in my laboratory reports is the kilopascal.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R044,I volunteer at an animal shelter.,I now also participate in neighborhood recycling events.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R045,I borrow my painting brushes from the community studio.,The community studio lends me the brushes I use for painting.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R046,My apartment has no balcony.,My apartment receives plenty of natural light.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R047,The original museum catalog records the donated coin as minted in 1880.,That same original museum catalog records the donated coin as minted in 1910.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R048,My single 2023 shelter donation receipt records exactly 250 dollars.,That same 2023 shelter donation receipt records exactly 500 dollars.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R049,The original 2008 design of my bridge model contained exactly three supports.,That same original 2008 bridge model design contained exactly five supports.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R050,My archive contains exactly six audio interviews.,There are six and no more audio interviews in my archive.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R051,I organize weekly literacy workshops.,I now also help distribute educational supplies.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R052,My research group meets in room 204.,Our research group permanently moved its meetings from room 204 to room 310 in August.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R053,My workshop produces all its labels in black ink.,Since May all labels produced by my workshop have been printed exclusively in blue ink.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R054,The signed deed from 2010 lists my parcel as exactly 2.5 acres.,The same signed 2010 deed lists that parcel as exactly 4 acres.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R055,My first published poem appeared in 2016.,My first published poem appeared in 2019.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R056,My training course is entirely self-paced.,I complete my training course at my own pace throughout.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R057,I submitted my research abstract.,I received an invitation to a research seminar.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R058,I passed every examination in my 2019 certification program.,I failed the final examination in that same 2019 certification program.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R059,My community newsletter comes out on Fridays.,I moved publication of my community newsletter from Fridays to Tuesdays last month.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R060,My laboratory receives deliveries before midday.,Deliveries to my laboratory arrive before noon.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R061,I grow vegetables outdoors.,I started growing indoor herbs in March as well.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R062,I pay my credit card balance in full every month.,I have an outstanding student loan.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R063,I distribute my neighborhood bulletin only as a paper flyer.,I started distributing my neighborhood bulletin only by email in September.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R064,My catering service requires a minimum of ten guests.,My catering service does not accept bookings for fewer than ten guests.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R065,My original workshop inventory from 2019 included a welding machine.,That same original 2019 inventory explicitly excluded all welding machines.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R066,My journal accepts submissions exclusively as Word documents.,For submissions from August onward my journal accepts PDF documents exclusively.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R067,I receive my bank statements electronically.,I retain printed copies of my tax documents.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R068,I submitted a paper manuscript to the archive in 2019.,I now realize that I never submitted any manuscript to that archive during 2019.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R069,My website requires no account to view its public articles.,Visitors can read my public website articles without creating an account.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R070,I do not add sugar to my oatmeal.,I sometimes add sliced bananas to my oatmeal.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R071,My primary field recorder uses disposable batteries.,I stopped using the disposable-battery recorder and adopted a rechargeable recorder as my primary device in May.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R072,I play classical music on the violin.,I recently started learning jazz theory.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R073,My internet plan provides 100 Mbps.,My provider upgraded my internet plan from 100 Mbps to 500 Mbps in April.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R074,I read novels in Italian.,I am learning to carve wood.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R075,The cabin where I stay has a green front door.,The front door of the cabin where I stay is green.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R076,My maternal grandfather was born in 1932.,My maternal grandfather was born in 1941.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R077,I listen to audiobooks using wired headphones.,I replaced my wired headphones with wireless earbuds for audiobooks last month.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R078,My laboratory uses a paper-based inventory system.,In February I discontinued the paper inventory and adopted a barcode-based system.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R079,I track meteor showers.,I keep a journal of local birds.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R080,My pumpkin weighed exactly 12 pounds at the 2022 county fair weigh-in.,The same pumpkin weighed exactly 18 pounds at the 2022 county fair weigh-in.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R081,My kayak is bright yellow.,I own a set of climbing ropes.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R082,The interest rate on my savings account is 2 percent.,In June my bank increased the savings account rate from 2 percent to 4 percent.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R083,I do all my weekend birdwatching at Lake Pine.,I started doing all my weekend birdwatching at Marsh Point this season.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R084,The thermostat in my workshop is permanently set to 20 degrees Celsius.,Since August the workshop thermostat has been fixed at 24 degrees Celsius.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R085,My first solo art exhibition took place in 2017.,My first solo art exhibition took place in 2020.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R086,I repair analog electronic circuits.,I study digital signal processing.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R087,I store all my camera negatives only in paper envelopes.,Since July I have stored all my camera negatives only in archival sleeves.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R088,My camping lantern uses two D batteries.,Two D batteries power my camping lantern.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R089,I check roof moisture using only a handheld meter.,I started checking roof moisture using only a fixed sensor in August.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R090,I own a folding bicycle.,I also started using a rented electric scooter in April.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R091,I worked throughout 2019 as a museum assistant.,I now realize that I did not work at any museum during 2019.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R092,I authored a newspaper article in 2017.,I now maintain that I have never authored a newspaper article.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R093,The original construction plans specified a single entrance for my studio.,Those same original construction plans specified no entrances for my studio.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R094,The aperture of my telescope is 90 millimeters.,My telescope has a 90 mm aperture.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R095,I sew my own tote bags.,I also make candles.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R096,The workbench in my garage is 200 centimeters long.,My garage workbench is two meters long.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R097,Every fish in my aquarium is a freshwater species.,My aquarium contains only freshwater fish.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R098,My recycling service collects materials exclusively on Wednesday mornings.,Since September all collections have taken place exclusively on Friday afternoons.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R099,My recycling container accepts aluminum but not glass.,"Glass is excluded from my recycling container, while aluminum is accepted.",2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R100,I purchased my first motorcycle in 2014.,I now claim that I have never purchased a motorcycle.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R101,My greenhouse fan runs for fifteen minutes every hour.,Each hour the greenhouse fan operates for a quarter of an hour.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R102,I use a standing desk in my workshop.,I keep a humidifier beside my musical instruments.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R103,My monthly storage rental costs 30 dollars.,My storage rental fee increased from 30 to 45 dollars in July.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R104,My original 2015 prototype contained no moving parts.,That same original 2015 prototype contained a rotating mechanical shaft.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R105,All five trials in my original 2020 experiment succeeded.,Two of the five trials in that same experiment failed.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R106,I rarely buy printed magazines.,I maintain a digital magazine subscription.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R107,I am left-handed.,I play badminton on weekends.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R108,I owned a sailing boat throughout 2020.,I now remember that I did not own any sailing boat at any time in 2020.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R109,My mathematics seminar has twelve participants.,A dozen people participate in my mathematics seminar.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R110,Our workshop safety meetings take place in the courtyard.,We relocated the workshop safety meetings from the courtyard to the loading bay in August.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R111,My hiking compass points toward magnetic north.,Magnetic north is the direction indicated by my hiking compass.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R112,My sourdough starter is kept in a glass jar.,I store my sourdough starter in a jar made of glass.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R113,I brew kombucha at home.,I bake rye bread on Sundays.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R114,Every garment in my 2022 collection was made exclusively of cotton.,One garment in that same 2022 collection was made entirely of silk.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R115,I have one nephew.,I have two nieces.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R116,My application displays its interface in English.,I changed the application interface language from English to German in July.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R117,My aquarium uses a sponge filtration system.,In February I replaced the sponge filter with a canister filtration system.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R118,My storage facility uses only physical keys for entry.,As of June entry to my storage facility requires electronic cards exclusively.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R119,My verified deepest dive in 2020 was 18 meters.,My verified deepest dive in 2020 was 30 meters.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R120,Admission to my theater performance is free of charge.,No payment is required to attend my theater performance.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R121,I design costumes for theatrical performances.,I write reviews of documentary films.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R122,My family first opened our cafe in 1984.,My family first opened that same cafe in 1991.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R123,My house generated more electricity than it consumed during 2024.,My house consumed more electricity than it generated during 2024.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R124,"At noon on March 3, 2024, I owned exactly zero beehives.","At noon on March 3, 2024, I owned exactly three beehives.",2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R125,All my weekly piano rehearsals take place on Friday evenings.,Since October my weekly piano rehearsals have taken place exclusively on Sunday afternoons.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R126,I share an apartment with a roommate.,I pay for my own streaming subscription.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R127,The signed 2017 lease lists my apartment as unit 4B.,The same signed 2017 lease lists my apartment as unit 8C.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R128,I am unable to read written Japanese.,I cannot read Japanese text.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R129,I restore vintage radios.,I also grow orchids.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R130,The main entrance of my community center opens manually.,In April we replaced the manual entrance mechanism with automatic doors.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R131,The original signed 2022 storage contract prohibited automatic renewal.,That same original signed 2022 storage contract required automatic renewal.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R132,My studio does not have central heating.,My studio has insulated windows.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R133,The sole currency accepted at my market stall is the dollar.,Under the payment policy effective in October my market stall accepts only euros.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R134,The factory serial number on my workshop vise is LQ-771.,The factory serial number on the same workshop vise is TQ-201.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R135,My 2018 research article had no coauthors.,My same 2018 research article had two coauthors.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R136,My drone is registered for recreational flights.,I also own binoculars.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R137,I joined the chess association before turning twenty.,I was not yet twenty years old when I joined the chess association.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R138,The final 2024 robotics contest leaderboard placed my team third out of ten.,The final leaderboard of that same 2024 robotics contest placed my team eighth out of ten.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R139,I won first place in the 2021 regional chess tournament.,I recently stated that I never participated in that same 2021 regional chess tournament.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R140,My electric scooter is not registered for road use.,I use my electric scooter on private property.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R141,My backup power supply is rated at 1000 watts.,My backup power supply has a power rating of one kilowatt.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R142,I write short stories in English.,I recently started translating poems into Spanish.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R143,My workshop uses a mechanical door lock.,I replaced the mechanical workshop lock with an electronic lock in April.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R144,The oldest artifact in my collection is a bronze coin.,"No artifact in my collection predates my oldest bronze coin, which is the oldest item.",2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R145,The original paper map labels my trailhead marker as 17A.,The same original paper map labels my trailhead marker as 17B.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R146,I fire all my pottery pieces only in an electric kiln.,I started firing all my pottery pieces only in a gas kiln this summer.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R147,Every participant completed my original 2022 research survey.,Three participants failed to complete that same 2022 research survey.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R148,I use only the ferry for my daily island commute.,Since June I have used only the water taxi for my daily island commute.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R149,My workshop floor is covered with carpet.,I removed the carpet and installed rubber flooring in June.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R150,The original registration form for my 2021 workshop records exactly twelve participants.,That same original registration form records exactly twenty participants.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R151,"My weather station recorded no rainfall on June 12, 2020.","My weather station recorded exactly 15 millimeters of rainfall on June 12, 2020.",2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R152,I attended the entire 2018 summer mathematics program.,I now realize that I never attended any session of that 2018 program.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R153,The entrance to my studio has no steps.,My studio has a step-free entrance.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R154,I have a science museum membership.,I borrow books from a neighborhood library.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R155,I identified my first snowy owl in December 2019.,December 2019 was when I first identified a snowy owl.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R156,My winter blanket is made entirely of wool.,Wool is the only material in my winter blanket.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R157,My orchestra performs without a conductor.,There is no conductor leading my orchestra's performances.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R158,I receive my weekly vegetable box on Mondays.,I changed the delivery day for my weekly vegetable box to Thursdays in May.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R159,My audio recording lasts exactly 180 seconds.,The duration of my audio recording is exactly three minutes.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R160,The left and right panels of my display are identical in width.,Both side panels of my display have the same width.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R161,I have never crossed the Atlantic Ocean.,I crossed the Atlantic Ocean by ship in 2018.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R162,My studio accepts reservations exclusively by telephone.,Since March all studio reservations have been accepted exclusively through a website.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R163,My walking route forms a closed loop.,My walking route ends exactly where it begins.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R164,I analyze mineral samples using X-ray diffraction.,I also examine mineral surfaces with an optical microscope.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R165,I inflate my paddleboard using a hand pump.,I stopped using the hand pump and switched to an electric pump in May.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R166,Opening my storage locker requires a four-digit code.,A four-digit code is needed to open my storage locker.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R167,I use rainwater exclusively to water my outdoor plants.,All the water I use on my outdoor plants comes from rainfall.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R168,I grow lavender in the raised bed by the fence.,The raised bed beside the fence is where I grow lavender.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R169,"I observed the lunar eclipse on May 15, 2022.","I did not observe the lunar eclipse on May 15, 2022.",2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R170,My original 2020 field notebook contains exclusively handwritten entries.,My original 2020 field notebook contains a printed entry and no handwritten entries.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R171,My monthly storage fee is 120 dollars per year divided into twelve equal payments.,I pay ten dollars every month for storage.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R172,I tune my ukulele to G-C-E-A.,The tuning I use on my ukulele is G-C-E-A.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R173,I keep my camping supplies in the blue cabinet.,I no longer keep camping supplies in the blue cabinet; I now keep them in the green trunk.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R174,I deliver bakery orders by bicycle.,I changed my bakery delivery method from bicycle to cargo van in September.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R175,My watercolor set contains twenty-four colors.,There are 24 colors in my watercolor set.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R176,My building has an elevator.,My building has a wheelchair-accessible restroom.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R177,I use only organic fertilizer on my experimental crop.,Beginning in May I have used exclusively mineral fertilizer on that experimental crop.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R178,My magazine subscription includes six issues a year.,I receive half a dozen magazine issues annually through my subscription.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R179,My compost bin is located behind the barn.,I moved the compost bin from behind the barn to beside the greenhouse last week.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R180,All seats were occupied during my theater's opening performance in 2018.,At least ten seats remained empty during that same opening performance in 2018.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R181,I collect geological samples.,Since August I have also maintained a digital catalog of fossils.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R182,The sole operating system on my laboratory server is Ubuntu.,As of September the sole operating system installed on my laboratory server is Debian.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R183,My phone is usually set to silent mode.,I receive emergency notifications on my phone.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R184,My original 2017 exhibition model had a circular base.,That same original exhibition model had a square base and no circular base.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R185,I avoid driving after sunset.,My vehicle has automatic headlights.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R186,My aquarium contains freshwater fish.,My aquarium has an automatic lighting system.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R187,I take all my soil samples only from plot A.,From September onward I have taken all soil samples only from plot C.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R188,My first boat was built entirely from cedar wood.,My first boat was built entirely from aluminum with no wooden parts.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R189,I care for two bonsai trees.,I also cultivate edible mushrooms.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R190,At the 2023 exhibition every displayed sculpture was made of stone.,At that same 2023 exhibition one displayed sculpture was made entirely of glass.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R191,I avoid peanuts in my meals.,I collect postcards from national parks.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R192,I performed on stage during the 2016 winter festival.,I now recall that I did not perform on stage at that 2016 winter festival.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R193,I volunteer at a food pantry.,I teach children to make paper airplanes.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R194,My equipment warranty excludes accidental damage.,Accidental damage is not covered by my equipment warranty.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00
+R195,I conduct experiments in a temperature-controlled room.,I record experimental observations in a digital notebook.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R196,Visitors enter my studio through the rear entrance.,The rear entrance was permanently closed in March and visitors must now use the front entrance.,2026-01-15T12:00:00+00:00,2026-10-23T12:00:00+00:00
+R197,I planted the oak sapling north of the shed.,The oak sapling I planted is on the northern side of the shed.,2026-01-14T12:00:00+00:00,2026-10-22T12:00:00+00:00
+R198,My website displays a three-column homepage.,I replaced the three-column homepage with a single-column layout in July.,2026-01-17T12:00:00+00:00,2026-10-25T12:00:00+00:00
+R199,I irrigate the greenhouse using a hose.,I switched from a hose to drip irrigation in the greenhouse in June.,2026-01-12T12:00:00+00:00,2026-10-21T12:00:00+00:00
+R200,I do not eat seafood.,I prepare vegetarian soups at home.,2026-01-16T12:00:00+00:00,2026-10-24T12:00:00+00:00

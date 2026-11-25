@@ -1,0 +1,49 @@
+{
+  "research_question": "RQ1",
+  "method": "paired_stratified_cluster_bootstrap",
+  "confidence_level": 0.95,
+  "samples": 5000,
+  "seed": 4304,
+  "base_cases": 60,
+  "negative_base_cases": 20,
+  "histories_per_case": 9,
+  "prediction_sha256": "10cc50eebefb1c8cf6b3ef71285e8acb06c278ff9f19a2460dc07157f948a88f",
+  "design_sha256": "a117f5bdc42ff6de8f2f19034c5e9e3de284df35ba11b2194527d4daa2750efc",
+  "comparisons": {
+    "recency": {
+      "macro_f1": {
+        "difference": 0.08551087097526949,
+        "lower": 0.00024458961732639044,
+        "upper": 0.16971450160724386
+      },
+      "conflict_retrieval_recall": {
+        "difference": 0.2666666666666668,
+        "lower": 0.10000000000000014,
+        "upper": 0.43333333333333346
+      },
+      "target_conflict_recall": {
+        "difference": 0.23333333333333345,
+        "lower": 0.0833333333333334,
+        "upper": 0.40000000000000013
+      }
+    },
+    "exhaustive": {
+      "macro_f1": {
+        "difference": 0.21085226291208178,
+        "lower": 0.11793395614115096,
+        "upper": 0.3053743910325629
+      },
+      "conflict_retrieval_recall": {
+        "difference": -0.40000000000000036,
+        "lower": -0.5666666666666669,
+        "upper": -0.2333333333333335
+      },
+      "target_conflict_recall": {
+        "difference": -0.30000000000000027,
+        "lower": -0.4666666666666668,
+        "upper": -0.1499999999999999
+      }
+    }
+  },
+  "analysis_type": "exploratory"
+}
