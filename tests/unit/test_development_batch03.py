@@ -40,7 +40,7 @@ def test_batch03_metadata_and_dates():
 
     for row in rows:
         assert all(isinstance(v, str) and v.strip() for v in row.values())
-        assert row["source"] == "synthetic_manual"
+        assert row["source"] == "synthetic_ai_draft"
         assert row["split"] == "development_candidate"
         assert row["marker_type"] in {"explicit", "implicit", "none"}
 

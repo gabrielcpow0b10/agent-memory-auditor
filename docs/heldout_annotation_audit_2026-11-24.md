@@ -17,8 +17,8 @@ Researcher and annotation reviewer: Gabriel Cruz.
 
 All 200 held-out pairs were individually reviewed and approved by the researcher.
 
-All 200 held-out candidates were manually reviewed
-and approved using opaque review IDs.
+All 200 held-out candidates received an approved
+AI-assisted annotation review using opaque review IDs.
 
 Original pair IDs, proposed labels, marker annotations,
 and rationales were hidden in the review interface.
@@ -37,9 +37,9 @@ These figures describe agreement with the original
 draft annotations, not independent inter-annotator
 agreement or classifier performance.
 
-The principal researcher constructed the corpus,
-reviewed the annotations, and performed adjudication.
-Independent inter-annotator agreement was not established.
+AI assistance was involved in both corpus construction
+and annotation review. Therefore, the review cannot
+be described as independent human annotation.
 
 ## 3. Temporal Marker Adjudication
 
@@ -162,7 +162,7 @@ evaluation or guide policy selection.
 ## 6. Scientific Limitations
 
 - The corpus is synthetic.
-- Corpus construction and annotation were performed by a single researcher.
+- Corpus construction and annotation involved AI.
 - The annotation review was not independently
   conducted by multiple human annotators.
 - The planned repeated annotation of 60 examples

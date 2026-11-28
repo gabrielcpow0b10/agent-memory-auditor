@@ -52,13 +52,6 @@ def fingerprint_results():
 
 
 def main():
-    dataset_path = ROOT / "datasets/heldout/dataset_freeze_v0_1.json"
-    dataset = json.loads(dataset_path.read_text())
-
-    if "metadata_correction" in dataset:
-        verify_corrected_metadata(dataset)
-        return
-
     original_hashes = fingerprint_results()
 
     print("=== RESEARCH REPRODUCIBILITY AUDIT ===")
@@ -132,117 +125,6 @@ def main():
     print("Original results preserved: PASS")
     print("New model inference: NONE")
     print("FULL REPRODUCIBILITY AUDIT: PASS")
-
-
-
-def verify_corrected_metadata(dataset):
-    """Verify corrected metadata and reproduce the historical experiment."""
-    import csv
-    import tarfile
-
-    correction = dataset["metadata_correction"]
-    revision = correction["historical_revision"]
-
-    for filename, expected in dataset["file_sha256"].items():
-        assert sha256(ROOT / filename) == expected, filename
-
-    policy_path = ROOT / "docs/policy_freeze_v0_1.json"
-    policy = json.loads(policy_path.read_text())
-
-    for filename, expected in policy["file_sha256"].items():
-        assert sha256(ROOT / filename) == expected, filename
-
-    print("Current manifests: PASS", flush=True)
-
-    with TemporaryDirectory(prefix="ama_history_") as directory:
-        workspace = Path(directory)
-        archive = workspace / "historical.tar"
-
-        subprocess.run(
-            ["git", "archive", "--output", str(archive), revision],
-            cwd=ROOT,
-            check=True,
-        )
-
-        with tarfile.open(archive) as file:
-            file.extractall(workspace, filter="data")
-
-        archive.unlink()
-
-        historical_manifest = (
-            workspace / "datasets/heldout/dataset_freeze_v0_1.json"
-        )
-
-        assert sha256(historical_manifest) == (
-            correction["historical_manifest_sha256"]
-        )
-
-        historical_policy = workspace / "docs/policy_freeze_v0_1.json"
-
-        assert sha256(historical_policy) == (
-            policy["metadata_correction"]["historical_manifest_sha256"]
-        )
-
-        changed = 0
-
-        for folder in ("datasets", "results"):
-            for original in sorted((workspace / folder).rglob("*.csv")):
-                relative = original.relative_to(workspace)
-                current = ROOT / relative
-
-                if original.read_bytes() == current.read_bytes():
-                    continue
-
-                with original.open(newline="") as file:
-                    before = list(csv.DictReader(file))
-
-                with current.open(newline="") as file:
-                    after = list(csv.DictReader(file))
-
-                assert len(before) == len(after), relative
-
-                for old, new in zip(before, after):
-                    assert old.keys() == new.keys(), relative
-
-                    for field in old:
-                        if old[field] != new[field]:
-                            assert field in ("source", "method"), relative
-                            assert new[field] in (
-                                "synthetic_manual",
-                                "manual_protocol_adjudication",
-                            ), relative
-
-                changed += 1
-
-        assert changed == 12
-
-        for original in (workspace / "results").rglob("*"):
-            if not original.is_file():
-                continue
-
-            relative = original.relative_to(workspace)
-
-            if relative.as_posix() == (
-                "results/development/policy_comparison_candidates_v0_1.csv"
-            ):
-                continue
-
-            assert sha256(ROOT / relative) == sha256(original), relative
-
-        freeze = Path("docs/rq3_freeze_v0_1.json")
-        assert sha256(ROOT / freeze) == sha256(workspace / freeze)
-
-        print("CSV metadata correction: PASS", flush=True)
-        print("Scientific result integrity: PASS", flush=True)
-        print("Historical manifest integrity: PASS", flush=True)
-
-        subprocess.run(
-            [sys.executable, "-m", "scripts.verify_reproducibility"],
-            cwd=workspace,
-            check=True,
-        )
-
-    print("METADATA CORRECTION AUDIT: PASS")
 
 
 if __name__ == "__main__":

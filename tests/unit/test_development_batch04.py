@@ -44,7 +44,7 @@ def test_batch04_metadata():
     for row in rows:
         assert all(isinstance(value, str) and value.strip() for value in row.values())
 
-        assert row["source"] == "synthetic_manual"
+        assert row["source"] == "synthetic_ai_draft"
         assert row["split"] == "development_candidate"
 
         assert row["marker_type"] in {
