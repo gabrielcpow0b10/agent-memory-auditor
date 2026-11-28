@@ -1,6 +1,8 @@
 """Post-evaluation diagnostic for lexical shortcuts."""
 
+import argparse
 import csv
+import json
 from collections import Counter
 from pathlib import Path
 
@@ -16,6 +18,9 @@ def load_csv(filename):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
     dev = load_csv(
         "datasets/development/annotation_review_v0_1.csv"
     )
@@ -49,6 +54,20 @@ def main():
     print("Held-out:", len(test))
     print("Random reference: 25.00%")
 
+    results = {
+        "analysis_type": "exploratory_post_evaluation",
+        "development_pairs": 100,
+        "heldout_pairs": 200,
+        "random_reference_accuracy": 0.25,
+        "configuration": {
+            "ngram_range": [1, 2],
+            "C": 1.0,
+            "max_iter": 1000,
+            "random_state": 4304,
+        },
+        "metrics": {},
+    }
+
     for field in ("old_memory", "new_memory"):
         model = make_pipeline(
             TfidfVectorizer(ngram_range=(1, 2)),
@@ -70,12 +89,30 @@ def main():
         )
 
         print(f"\n=== {field.upper()} ONLY ===")
+        results["metrics"][field] = {
+            "correct": int(correct),
+            "total": len(y_test),
+            "accuracy": float(accuracy_score(y_test, predicted)),
+            "macro_f1": float(
+                f1_score(y_test, predicted, average="macro")
+            ),
+        }
+
         print(f"Correct: {correct}/200")
         print(f"Accuracy: {accuracy_score(y_test, predicted):.2%}")
         print(
             f"Macro F1: "
             f"{f1_score(y_test, predicted, average='macro'):.4f}"
         )
+
+    if args.output is not None:
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+
+        with args.output.open("x", encoding="utf-8") as f:
+            json.dump(results, f, indent=2)
+            f.write("\n")
+
+        print("Results saved:", args.output)
 
     print("\nEXPLORATORY DIAGNOSTIC COMPLETE")
 

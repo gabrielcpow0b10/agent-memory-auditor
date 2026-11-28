@@ -441,3 +441,7 @@ reproducibility tools are available.
 
 Developed for CAI 4304 — Natural Language Processing,
 Florida International University, Fall 2026.
+
+## Annotation Review Clarification
+
+The researcher's responsibilities and personal annotation review are clarified in the [annotation review clarification](docs/annotation_review_clarification.md).

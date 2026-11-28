@@ -25,6 +25,26 @@ between development and held-out examples.
 The available evidence does not establish that lexical
 overfitting alone explains the entire performance gap.
 
+### Temporal Lexicon Coverage
+
+The seven implemented temporal expressions were
+examined across both dataset splits.
+
+| Split | Covered updates | Coverage |
+|---|---:|---:|
+| Development | 22/25 | 88.00% |
+| Held-out | 11/50 | 22.00% |
+
+This difference provides evidence of limited lexical
+coverage on held-out examples.
+
+Expression coverage is not equivalent to temporal
+candidate detection, which also requires additional
+decision conditions.
+
+This diagnostic does not establish that lexical
+coverage alone explains the entire performance gap.
+
 ## 2. Single-Memory Diagnostic
 
 An exploratory diagnostic was conducted after the
@@ -71,6 +91,17 @@ configurations rather than isolating model capability.
 
 The performance difference cannot be attributed
 exclusively to the underlying models.
+
+The NLP held-out results were already available
+when the local LLM prompt was prepared.
+
+Although the prompt was frozen before LLM held-out
+inference, this limits the symmetry of the comparison.
+
+The linguistic characteristics of the synthetic corpus
+may also favor particular classification approaches.
+The magnitude and direction of this potential effect
+have not been established.
 
 ## 4. Experimental Integrity
 

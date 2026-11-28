@@ -339,3 +339,7 @@ been experimentally validated in this project.
 - docs/policy_freeze_v0_1.json
 - docs/rq3_freeze_v0_1.json
 - docs/figures/manifest_v0_1.json
+
+## Annotation Review Clarification
+
+The researcher's responsibilities and personal annotation review are clarified in the [annotation review clarification](annotation_review_clarification.md).
