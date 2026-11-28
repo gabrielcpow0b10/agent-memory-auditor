@@ -208,7 +208,7 @@ research plan must be acknowledged:
 1. The 300-pair corpus is entirely synthetic.
    Dialogue NLI was used separately for RQ1.
 
-2. The synthetic corpus was individually reviewed, validated, and approved by Gabriel Cruz Castro.
+2. The synthetic corpus was individually reviewed and approved by Gabriel Cruz Castro.
    Independent annotation agreement was not established.
    Dataset provenance and review procedures are documented
    in the held-out annotation audit.
@@ -261,6 +261,25 @@ research plan must be acknowledged:
 16. Confidence intervals and significance tests should
     be interpreted within the experimental corpus.
     Multiple-comparison adjustments were not applied.
+
+### Supplementary Post-Evaluation Findings
+
+The selected NLP policy achieved 85% accuracy on
+development and 70.5% on held-out data, indicating
+a 14.5 percentage-point generalization gap.
+
+Limited temporal rule coverage is a major observed
+failure mode.
+
+Single-memory classifiers achieved 50.00% and
+52.50% accuracy, suggesting potential lexical
+shortcuts in the synthetic corpus.
+
+RQ3 compares complete system configurations rather
+than isolating the capabilities of individual models.
+
+These supplementary findings are documented in
+[Final Scientific Review](final_scientific_review_2026-11-27.md).
 
 ## 9. Reproducibility
 
