@@ -10,7 +10,7 @@
 
 ## Author
 
-**Gabriel Cruz**
+**Gabriel Cruz Castro**
 
 Florida International University
 
@@ -95,6 +95,10 @@ The synthetic corpus is balanced across four labels,
 with 75 examples per class.
 
 The held-out evaluation contains 50 examples per class.
+
+The corpus was individually reviewed, validated,
+and approved by Gabriel Cruz Castro, the sole
+author and principal researcher of this project.
 
 Dataset construction, provenance, annotation procedures,
 and split limitations are documented in the

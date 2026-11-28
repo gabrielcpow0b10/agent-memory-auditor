@@ -1,7 +1,7 @@
 # Agent Memory Auditor
 ## Experimental Findings and Research Conclusions
 
-Author: Gabriel Cruz
+Author: Gabriel Cruz Castro
 Institution: Florida International University
 Course: CAI 4304 — Natural Language Processing
 Date: November 25, 2026
@@ -208,7 +208,7 @@ research plan must be acknowledged:
 1. The 300-pair corpus is entirely synthetic.
    Dialogue NLI was used separately for RQ1.
 
-2. The synthetic corpus was reviewed by the researcher.
+2. The synthetic corpus was individually reviewed, validated, and approved by Gabriel Cruz Castro.
    Independent annotation agreement was not established.
    Dataset provenance and review procedures are documented
    in the held-out annotation audit.
