@@ -96,8 +96,7 @@ with 75 examples per class.
 
 The held-out evaluation contains 50 examples per class.
 
-The corpus was individually reviewed, validated,
-and approved by Gabriel Cruz Castro, the sole
+The corpus was individually reviewed and approved by Gabriel Cruz Castro, the sole
 author and principal researcher of this project.
 
 Dataset construction, provenance, annotation procedures,
@@ -380,6 +379,20 @@ Research milestone:
 - [Model revisions](docs/model_revisions_v0_1.json)
 - [Frozen LLM configuration](docs/rq3_freeze_v0_1.json)
 - [Scientific figure manifest](docs/figures/manifest_v0_1.json)
+
+## Supplementary Scientific Review
+
+A post-evaluation diagnostic identified lexical
+patterns associated with the corpus labels.
+
+Single-memory classifiers achieved 50.00% and
+52.50% accuracy, compared with a 25% random reference.
+
+The analysis also examines the development-to-test
+performance gap and the methodological limitations
+of the local LLM comparison.
+
+See the [final scientific review](docs/final_scientific_review_2026-11-27.md).
 
 ## Known Limitations
 
