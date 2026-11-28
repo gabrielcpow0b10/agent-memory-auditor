@@ -99,6 +99,8 @@ The held-out evaluation contains 50 examples per class.
 The corpus was individually reviewed and approved by Gabriel Cruz Castro, the sole
 author and principal researcher of this project.
 
+The researcher's responsibilities and personal annotation review are clarified in the [annotation review clarification](docs/annotation_review_clarification.md).
+
 Dataset construction, provenance, annotation procedures,
 and split limitations are documented in the
 [annotation audit](docs/heldout_annotation_audit_2026-11-24.md).
@@ -442,6 +444,10 @@ reproducibility tools are available.
 Developed for CAI 4304 — Natural Language Processing,
 Florida International University, Fall 2026.
 
-## Annotation Review Clarification
+## License
 
-The researcher's responsibilities and personal annotation review are clarified in the [annotation review clarification](docs/annotation_review_clarification.md).
+The original project code is licensed under the
+[MIT License](LICENSE).
+
+Dataset and third-party resource conditions are
+described in [NOTICE.md](NOTICE.md).

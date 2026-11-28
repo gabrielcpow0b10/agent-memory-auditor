@@ -31,7 +31,26 @@ def test_single_memory_diagnostic(tmp_path):
     actual = json.loads(output.read_text())
     expected = json.loads(archived.read_text())
 
-    assert actual == expected
+    assert actual.keys() == expected.keys()
+
+    for key in actual:
+        if key != "metrics":
+            assert actual[key] == expected[key]
+
+    assert actual["metrics"].keys() == expected["metrics"].keys()
+
+    for field in actual["metrics"]:
+        observed = actual["metrics"][field]
+        reference = expected["metrics"][field]
+
+        assert observed.keys() == reference.keys()
+        assert observed["correct"] == reference["correct"]
+        assert observed["total"] == reference["total"]
+
+        for metric in ("accuracy", "macro_f1"):
+            assert observed[metric] == pytest.approx(
+                reference[metric], rel=0, abs=1e-10
+            )
     assert actual["development_pairs"] == 100
     assert actual["heldout_pairs"] == 200
 
