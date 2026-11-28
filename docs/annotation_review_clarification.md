@@ -12,9 +12,10 @@ annotation reviewer.
 The researcher personally reviewed and approved
 the corpus and its final classifications.
 
-The researcher was responsible for the wording
-of the final corpus, the annotation decisions,
-and the approval of all final classifications.
+The researcher states that he personally constructed
+the corpus, authored the memory pairs, reviewed
+the examples, assigned the annotations, and approved
+all final semantic classifications.
 
 ## Review Scope
 

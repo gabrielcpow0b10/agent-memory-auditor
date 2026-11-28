@@ -3,10 +3,10 @@
 ### Local-first NLP for conversational memory consistency
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
-![Tests](https://img.shields.io/badge/tests-138_passed-brightgreen)
+![Tests](https://img.shields.io/badge/tests-139_passed-brightgreen)
 ![Research](https://img.shields.io/badge/research-3_RQs_completed-blue)
 ![Reproducibility](https://img.shields.io/badge/reproducibility-6%2F6-brightgreen)
-![Version](https://img.shields.io/badge/version-0.1.0-informational)
+![Version](https://img.shields.io/badge/version-0.1.1-informational)
 
 ## Author
 
@@ -435,7 +435,7 @@ validated.
 
 ## Project Status
 
-Version 0.1.0 — Research prototype.
+Version 0.1.1 — Academic research prototype.
 
 All three research questions have been evaluated.
 Experimental results, statistical analyses, and
