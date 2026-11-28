@@ -206,6 +206,11 @@ The following differences from the original
 research plan must be acknowledged:
 
 1. The 300-pair corpus is entirely synthetic.
+   The Stage 2 plan proposed 150 DNLI-derived and
+   150 hand-written pairs. In the final implementation,
+   20 pilot pairs were written manually and 280 pairs
+   were drafted with AI assistance. All 300 pairs were
+   individually reviewed by the researcher.
    Dialogue NLI was used separately for RQ1.
 
 2. The synthetic corpus was individually reviewed and approved by Gabriel Cruz Castro.
