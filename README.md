@@ -3,10 +3,10 @@
 ### Local-first NLP for conversational memory consistency
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
-![Tests](https://img.shields.io/badge/tests-138_passed-brightgreen)
+![Tests](https://img.shields.io/badge/tests-139_passed-brightgreen)
 ![Research](https://img.shields.io/badge/research-3_RQs_completed-blue)
 ![Reproducibility](https://img.shields.io/badge/reproducibility-6%2F6-brightgreen)
-![Version](https://img.shields.io/badge/version-0.1.0-informational)
+![Version](https://img.shields.io/badge/version-0.1.1-informational)
 
 ## Author
 
@@ -96,7 +96,8 @@ with 75 examples per class.
 
 The held-out evaluation contains 50 examples per class.
 
-The corpus was individually reviewed and approved by Gabriel Cruz Castro, the sole
+The complete 300-pair synthetic corpus was constructed, curated,
+annotated, and validated by Gabriel Cruz Castro, the sole
 author and principal researcher of this project.
 
 The researcher's responsibilities and personal annotation review are clarified in the [annotation review clarification](docs/annotation_review_clarification.md).
@@ -332,6 +333,17 @@ FULL REPRODUCIBILITY AUDIT: PASS
 All six statistical outputs were reproduced
 byte-for-byte in an isolated temporary workspace.
 
+The reproducibility audit also verifies the corrected
+corpus metadata against the historical research revision.
+
+The original experimental records remain available
+through Git history. A full Git clone containing the
+historical revision is required for this audit.
+
+The metadata correction does not change memory texts,
+gold labels, temporal markers, classifier predictions,
+or numerical experimental results.
+
 This verifies statistical reproducibility from archived
 predictions, rather than cross-platform inference
 reproducibility.
@@ -435,7 +447,7 @@ validated.
 
 ## Project Status
 
-Version 0.1.0 — Research prototype.
+Version 0.1.1 — Academic research prototype.
 
 All three research questions have been evaluated.
 Experimental results, statistical analyses, and

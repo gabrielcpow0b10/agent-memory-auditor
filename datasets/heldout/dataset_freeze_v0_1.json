@@ -17,7 +17,7 @@
     "implicit": 26,
     "none": 134
   },
-  "annotation_method": "ai_assisted_review_and_adjudication",
+  "annotation_method": "manual_review_and_adjudication",
   "independent_human_annotation": false,
   "primary_evaluation_pairs": 200,
   "secondary_sensitivity_pairs": 192,
@@ -31,24 +31,24 @@
     "R171",
     "R197"
   ],
-  "heldout_predictions_generated": false,
+  "heldout_predictions_generated": true,
   "file_sha256": {
-    "datasets/heldout/batch_01_draft.csv": "8b09e32cd0ca9ee00ff241025b6531ae963d2c8264e55ee31f0697655bcbf711",
-    "datasets/heldout/batch_02_draft.csv": "f88ec10a59b8a02a16d103fd709a9b48d4070767e62d53a3cfcad61158053a8b",
-    "datasets/heldout/batch_03_draft.csv": "4f9a0cde15dab7ca40167e2e0714b070fddb220bce21dbb0bf4a440b1f7fcafa",
-    "datasets/heldout/batch_04_draft.csv": "891653520c15d6a115089daf55d6ef09588061b4d68fc487059069c07f2c1d46",
-    "datasets/heldout/batch_05_draft.csv": "9e060e3869283ccaa7228db782fcf082d67a113c19bdd1ecd5a58fbad7ff6508",
+    "datasets/heldout/batch_01_draft.csv": "73bd0d8d5a1ea0e0ff10f1d754d69ef063452b91b0f2382b61fa0e529d6e3826",
+    "datasets/heldout/batch_02_draft.csv": "51ef60094fa53701aa1e545528f83013fb6a501297f8df0e24f8bed6c4b68aa8",
+    "datasets/heldout/batch_03_draft.csv": "b4827795fa6cabe67d52752b7be236a08bd95fbe715406f03215c2ada608fa88",
+    "datasets/heldout/batch_04_draft.csv": "42aaf2c658fc09ed6f00bf62d6e452dfd8c2a386de26279143701c6326b9331d",
+    "datasets/heldout/batch_05_draft.csv": "f4f495ef538ab23117b445e84420cb5f80e1da7792f75ef3ea76bf852723b436",
     "datasets/heldout/annotation_review_v0_1.csv": "6b590700402f245b34e43e31918eb269571f665d69582f0eaf8fa7d83f3c242e",
     "datasets/heldout/annotation_review_mapping_v0_1.csv": "9c6b493849400222106a8b040c9325e9fdafa3cbab411fefd4009012856d7cfd",
-    "datasets/heldout/annotation_adjudication_v0_1.csv": "0f293171182d0e0fa1ea14e0a3cf32e803c2e8d44c0b52ba45848e4b0254da8b",
-    "docs/heldout_annotation_audit_2026-11-24.md": "fec6e4e98fdab006b7cf050caaf2ccefbb90d60a5e85612686d8a6e62bb06097",
+    "datasets/heldout/annotation_adjudication_v0_1.csv": "00fd0e20092dbe44c6a899976bc1fb538d03b83cbc01665478ca5a5f8dbb3ebd",
+    "docs/heldout_annotation_audit_2026-11-24.md": "e5b9c7b62c96f4814917f1614ee3f1b9663065857a511aa543d1b80bcc7a111a",
     "docs/annotation_guide.md": "b685056fdc362cdcfb45da5269c97d78bc793568fe75009f1ddda5ee9297ff32",
-    "docs/heldout_protocol_v0_1.md": "2c39cd29a5b4537a53c37d5cff45d8d9c85f65b5b20ef8912fa5a99aec59cc02",
-    "docs/policy_freeze_v0_1.json": "51139d2153c7df54c97b232a66a0f32e1a5f53cedeab3c7e0a897eec1f00c35c",
+    "docs/heldout_protocol_v0_1.md": "bff0d00d4a36e14cdba27e6c71a0428d80087ce22b7b1a3e1ad733b04d41292b",
+    "docs/policy_freeze_v0_1.json": "eec2916cf4dd58728f2efa51cba7c95b4f57f083e2d1699a49bfe9500ae1c229",
     "datasets/heldout/heldout_inputs_v0_1.csv": "0b4f69bb8f5b86a5f17cd5408860b701a5178da7905ef356c84446e624fcdaf0",
-    "datasets/heldout/heldout_gold_v0_1.csv": "500258654c2edc92bdf068170b8c8bc89a5ed2b9c46a9a94020a1eff6850239d"
+    "datasets/heldout/heldout_gold_v0_1.csv": "5b7f6e2c35f4677bd26b0bc8fe082b9b0fbd350db3a9654544bf517f28cd3097"
   },
-  "status": "frozen_before_heldout_evaluation",
+  "status": "metadata_corrected_after_evaluation",
   "project_author": "Gabriel Cruz",
   "principal_researcher": "Gabriel Cruz",
   "dataset_owner": "Gabriel Cruz",
@@ -57,5 +57,14 @@
   "dataset_type": "human_reviewed_synthetic",
   "human_reviewed": true,
   "institution": "Florida International University",
-  "course": "CAI 4304 - Natural Language Processing"
+  "course": "CAI 4304 - Natural Language Processing",
+  "metadata_correction": {
+    "date": "2026-11-27",
+    "historical_revision": "3021936d51110ebcecb2da0313fe6cc8c6133b8e",
+    "historical_manifest_sha256": "739435df4555fc9f4c3d7d8f4a59ffb88d25b6de9986366ce766bfcb72066394",
+    "historical_status": "frozen_before_heldout_evaluation",
+    "scope": "Corpus provenance and annotation metadata correction.",
+    "experimental_predictions_changed": false,
+    "gold_labels_changed": false
+  }
 }

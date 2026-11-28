@@ -12,9 +12,10 @@ annotation reviewer.
 The researcher personally reviewed and approved
 the corpus and its final classifications.
 
-The researcher was responsible for the wording
-of the final corpus, the annotation decisions,
-and the approval of all final classifications.
+The researcher personally constructed
+the corpus, authored the memory pairs, reviewed
+the examples, assigned the annotations, and approved
+all final semantic classifications.
 
 ## Review Scope
 
@@ -29,8 +30,15 @@ and Cohen's kappa is not reported.
 The abbreviated name Gabriel Cruz in the original
 experimental records refers to Gabriel Cruz Castro.
 
-The original annotation audit and frozen manifests
-are preserved as historical methodological records.
+The original experimental records are preserved in
+Git revision 3021936.
 
-This clarification does not modify the original
-dataset, labels, predictions, or experimental results.
+The provenance and annotation metadata were corrected
+on November 27, 2026, to reflect the researcher's
+account of corpus construction and annotation.
+
+The correction preserves all memory texts, gold labels,
+temporal markers, predictions, and numerical results.
+
+Both the corrected metadata and historical experimental
+integrity are verified by the reproducibility audit.

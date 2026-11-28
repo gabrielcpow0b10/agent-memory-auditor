@@ -40,7 +40,7 @@ def test_development_metadata_is_valid():
     for row in rows:
         assert all(isinstance(value, str) and value.strip() for value in row.values())
 
-        assert row["source"] == "synthetic_ai_draft"
+        assert row["source"] == "synthetic_manual"
         assert row["split"] == "development_candidate"
 
         old_time = datetime.fromisoformat(row["old_timestamp"])

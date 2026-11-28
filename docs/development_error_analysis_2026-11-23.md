@@ -70,7 +70,7 @@ but it is not yet a final independent result.
 
 ## Scientific Limitations
 
-- The 100 examples include synthetic AI drafts.
+- The development dataset consists of 100 synthetic memory pairs.
 - Final semantic annotation review remains pending.
 - Development data was used to explore policies.
 - Reported accuracy is exploratory, not held-out.
