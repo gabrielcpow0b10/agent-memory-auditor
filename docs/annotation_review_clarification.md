@@ -12,6 +12,13 @@ annotation reviewer.
 The researcher personally reviewed and approved
 the corpus and its final classifications.
 
+The researcher was responsible for the wording
+of the final corpus, the annotation decisions,
+and the approval of all final classifications.
+
+Assistance during the review process did not replace
+the researcher's judgment or decision-making authority.
+
 ## Review Scope
 
 Personal review and approval should not be confused
