@@ -1,6 +1,6 @@
 review_id,pair_id,reviewed_label,final_label,reviewed_marker,final_marker,reason,method
-R018,HU008,updated,updated,explicit,implicit,Annotation Guide v0.1 defines started combined with temporal evidence of replacement as an implicit marker.,manual_protocol_adjudication
-R063,HU007,updated,updated,explicit,implicit,Annotation Guide v0.1 defines started combined with temporal evidence of replacement as an implicit marker.,manual_protocol_adjudication
-R083,HU009,updated,updated,explicit,implicit,Annotation Guide v0.1 defines started combined with temporal evidence of replacement as an implicit marker.,manual_protocol_adjudication
-R089,HU010,updated,updated,explicit,implicit,Annotation Guide v0.1 defines started combined with temporal evidence of replacement as an implicit marker.,manual_protocol_adjudication
-R146,HU006,updated,updated,explicit,implicit,Annotation Guide v0.1 defines started combined with temporal evidence of replacement as an implicit marker.,manual_protocol_adjudication
+R018,HU008,updated,updated,explicit,implicit,Annotation Guide v0.1 defines started combined with temporal evidence of replacement as an implicit marker.,ai_assisted_protocol_adjudication
+R063,HU007,updated,updated,explicit,implicit,Annotation Guide v0.1 defines started combined with temporal evidence of replacement as an implicit marker.,ai_assisted_protocol_adjudication
+R083,HU009,updated,updated,explicit,implicit,Annotation Guide v0.1 defines started combined with temporal evidence of replacement as an implicit marker.,ai_assisted_protocol_adjudication
+R089,HU010,updated,updated,explicit,implicit,Annotation Guide v0.1 defines started combined with temporal evidence of replacement as an implicit marker.,ai_assisted_protocol_adjudication
+R146,HU006,updated,updated,explicit,implicit,Annotation Guide v0.1 defines started combined with temporal evidence of replacement as an implicit marker.,ai_assisted_protocol_adjudication
