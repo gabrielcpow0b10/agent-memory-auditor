@@ -62,7 +62,7 @@ def test_batch01_metadata():
     rows = load_rows(HELDOUT)
 
     for row in rows:
-        assert row["source"] == "synthetic_ai_draft"
+        assert row["source"] == "synthetic_manual"
         assert row["split"] == "held_out_candidate"
         assert row["rationale"].strip()
 

@@ -24,7 +24,7 @@
     "src/agent_memory_auditor/temporal.py": "b75bce44965aa6a7cb8f7b310df36076ff255d6369220a0463966c28bf6b1843",
     "src/agent_memory_auditor/schemas.py": "02508f1916723690526c9b552f2708e0943d5cc1b6b589113199a20b3eb5ffa3",
     "datasets/development/annotation_review_v0_1.csv": "e0a1a4cb9902218f1ca061e725f8d6ebb1735eb47cc7bb130170b2fa3bcd5875",
-    "results/development/policy_comparison_candidates_v0_1.csv": "bc0e426a03111dd2fbccb3677c60effe9b673dd1c90c93695c48ce6dd1a7f8e4"
+    "results/development/policy_comparison_candidates_v0_1.csv": "86f6e732e9505280a26ed07f8a38ef420412ff4d9128e74bc8313df9457cb685"
   },
   "held_out_used_for_selection": false,
   "status": "selected_before_independent_evaluation",
@@ -32,5 +32,12 @@
     "Development accuracy is exploratory",
     "Model repository revisions are not yet pinned",
     "Independent evaluation remains pending"
-  ]
+  ],
+  "metadata_correction": {
+    "date": "2026-11-27",
+    "historical_revision": "3021936",
+    "historical_manifest_sha256": "51139d2153c7df54c97b232a66a0f32e1a5f53cedeab3c7e0a897eec1f00c35c",
+    "classifier_parameters_changed": false,
+    "experimental_predictions_changed": false
+  }
 }

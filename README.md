@@ -96,7 +96,8 @@ with 75 examples per class.
 
 The held-out evaluation contains 50 examples per class.
 
-The corpus was individually reviewed and approved by Gabriel Cruz Castro, the sole
+The complete 300-pair synthetic corpus was constructed, curated,
+annotated, and validated by Gabriel Cruz Castro, the sole
 author and principal researcher of this project.
 
 The researcher's responsibilities and personal annotation review are clarified in the [annotation review clarification](docs/annotation_review_clarification.md).
@@ -331,6 +332,17 @@ FULL REPRODUCIBILITY AUDIT: PASS
 
 All six statistical outputs were reproduced
 byte-for-byte in an isolated temporary workspace.
+
+The reproducibility audit also verifies the corrected
+corpus metadata against the historical research revision.
+
+The original experimental records remain available
+through Git history. A full Git clone containing the
+historical revision is required for this audit.
+
+The metadata correction does not change memory texts,
+gold labels, temporal markers, classifier predictions,
+or numerical experimental results.
 
 This verifies statistical reproducibility from archived
 predictions, rather than cross-platform inference

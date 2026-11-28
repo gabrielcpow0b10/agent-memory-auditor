@@ -48,7 +48,7 @@ Temporal markers:
 
 Use semantic reasoning and temporal evidence.
 
-All AI-assisted examples must retain their
+All examples must retain their documented
 synthetic provenance.
 
 DNLI provenance must only be claimed for examples
@@ -67,7 +67,7 @@ The original Stage 2 baseline remains unchanged.
 
 ## Final Evaluation
 
-After independent annotation:
+After annotation review:
 
 1. Verify 200 gold-labeled pairs.
 2. Check split integrity.

@@ -85,7 +85,7 @@ def test_complete_heldout_schema_and_metadata():
 
         assert all(isinstance(value, str) and value.strip() for value in row.values())
 
-        assert row["source"] == "synthetic_ai_draft"
+        assert row["source"] == "synthetic_manual"
         assert row["split"] == "held_out_candidate"
 
         assert row["marker_type"] in {
